@@ -71,6 +71,7 @@ for ($row = 1; $row <= $highestRow; $row++)
 
 // Print excel data
 echo "<table>";
+echo "=====>>> Import Succesfull";
 foreach ($exceldata as $index => $excelraw)
 {
 	echo "<tr>";
